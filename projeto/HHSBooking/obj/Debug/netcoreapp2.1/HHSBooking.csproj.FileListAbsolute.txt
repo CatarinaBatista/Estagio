@@ -149,3 +149,8 @@ C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Ti
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoPagamentoes\Details.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoPagamentoes\Edit.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoPagamentoes\Index.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Create.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Delete.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Details.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Edit.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Index.g.cshtml.cs
