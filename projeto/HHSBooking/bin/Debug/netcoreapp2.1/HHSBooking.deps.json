@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "5e76f3e9f60fa8760ceac12324fa108b44fedb8f"
+    "signature": "efc30805f85a95303d63caaf54bcbbc7cef72819"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "HHSBooking/1.0.0": {
         "dependencies": {
+          "JavaScriptEngineSwitcher.ChakraCore": "3.0.10",
           "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": "3.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -54,6 +55,26 @@
         },
         "compile": {
           "lib/netstandard2.0/AdvancedStringBuilder.dll": {}
+        }
+      },
+      "JavaScriptEngineSwitcher.ChakraCore/3.0.10": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "JavaScriptEngineSwitcher.Core": "3.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/JavaScriptEngineSwitcher.ChakraCore.dll": {
+            "assemblyVersion": "3.0.10.0",
+            "fileVersion": "3.0.10.0"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp2.1/ru-ru/JavaScriptEngineSwitcher.ChakraCore.resources.dll": {
+            "locale": "ru-ru"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/JavaScriptEngineSwitcher.ChakraCore.dll": {}
         }
       },
       "JavaScriptEngineSwitcher.Core/3.0.0": {
@@ -3633,6 +3654,13 @@
       "sha512": "sha512-IbN3r5whlJvi8MhCDPVpIb+NVScyUcKSdcJZrnoXFDyzPDISl3AbWouNBYIHRdZdfGuzqCQEhM1vkxbIKqQVaQ==",
       "path": "advancedstringbuilder/0.1.0",
       "hashPath": "advancedstringbuilder.0.1.0.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.ChakraCore/3.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8zDGBYTJgD7wBfhRIxreP3Bu43YR5mLum+VRVDAV9DNB8cLWnEe0WmCbh2dw7eGVld1E9b3wP2BPcrK9dou6qA==",
+      "path": "javascriptengineswitcher.chakracore/3.0.10",
+      "hashPath": "javascriptengineswitcher.chakracore.3.0.10.nupkg.sha512"
     },
     "JavaScriptEngineSwitcher.Core/3.0.0": {
       "type": "package",

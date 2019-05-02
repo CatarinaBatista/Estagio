@@ -22,6 +22,7 @@ namespace HHSBooking
         public string Pais { get; set; }
         public short QuantidadeQuartos { get; set; }
         public string Descricao { get; set; }
+        public string Imagem { get; set; }
 
         public virtual ICollection<Regimes> Regimes { get; set; }
         public virtual ICollection<Reservas> Reservas { get; set; }

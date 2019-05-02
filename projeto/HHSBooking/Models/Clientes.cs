@@ -20,6 +20,7 @@ namespace HHSBooking
         public string CodPostal { get; set; }
         public string Cc { get; set; }
         public string DataNasc { get; set; }
+        public string Imagem { get; set; }
 
         public virtual ICollection<Reservas> Reservas { get; set; }
     }

@@ -56,7 +56,7 @@ namespace HHSBooking.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdtipoQuarto,Idhotel,Capacidade,Inventario,Descricao")] TipoQuarto tipoQuarto)
+        public async Task<IActionResult> Create([Bind("IdtipoQuarto,Idhotel,Capacidade,Inventario,Descricao,Imagem")] TipoQuarto tipoQuarto)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace HHSBooking.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("IdtipoQuarto,Idhotel,Capacidade,Inventario,Descricao")] TipoQuarto tipoQuarto)
+        public async Task<IActionResult> Edit(long id, [Bind("IdtipoQuarto,Idhotel,Capacidade,Inventario,Descricao,Imagem")] TipoQuarto tipoQuarto)
         {
             if (id != tipoQuarto.IdtipoQuarto)
             {
